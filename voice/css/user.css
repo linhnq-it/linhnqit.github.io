@@ -34,9 +34,9 @@
     width: 150px;
 }
 @media(max-width: 668px) {
-    #nav-menu ul li a {
+    /* #nav-menu ul li a {
         min-width: 70px;
-    }
+    } */
     #voice-list .pc-item  {
         display: none;
     }
