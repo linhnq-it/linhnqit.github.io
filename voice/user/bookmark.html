@@ -64,55 +64,344 @@
 	<div class="container w-full mx-auto" id="main">
 		<div class="flex-row px-4">
 			<div id="voice-list" class="mt-8">
-				<div class="item border-b hover:bg-white cursor-pointer flex flex-wrap pb-2 pt-2" onclick="voiceDetail()">
-					<div class="item-left sm:w-1/2">
-						<h3 class="Title text-2xl">Voice Title 1</h3>
-						<p class="user text-gray-600 text-xs mt-2 mb-2">Username</p>
-						<p class="time text-gray-700 text-sm">02:03</p>
+				<div class="item cursor-pointer" onclick="voiceDetail()">
+					<div class="pc-item border-b flex flex-wrap hover:bg-white pb-2 pt-2">
+						<div class="item-left sm:w-1/2">
+							<h3 class="Title text-2xl">Voice Title 1
+								<span class="text-orange-400 hover:text-orange-500 text-sm is-bookmark"><i class="fas fa-bookmark fa-fw mr-3"></i></span>
+							</h3>
+							<p class="user text-gray-600 text-xs mt-2 mb-2">Username</p>
+							<p class="time text-gray-700 text-sm">02:03</p>
+						</div>
+						<div class="item-right sm:w-1/2">
+							<p class="date">2019/07/10 09:00</p>
+							<p class="tag mt-2 mb-2">Tag</p>
+							<p class="category">Category</p>
+						</div>
 					</div>
-					<div class="item-right ">
-						<p class="date">2019/07/10 09:00</p>
-						<p class="tag mt-2 mb-2">Tag</p>
-						<p class="category">Category</p>
-					</div>
-				</div>
-
-				<div class="item border-b hover:bg-white cursor-pointer flex flex-wrap pb-2 pt-2" onclick="voiceDetail()">
-					<div class="item-left sm:w-1/2">
-						<h3 class="Title text-2xl">Voice Title 3</h3>
-						<p class="user text-gray-600 text-xs mt-2 mb-2">Username</p>
-						<p class="time text-gray-700 text-sm">02:03</p>
-					</div>
-					<div class="item-right ">
-						<p class="date">2019/07/10 09:00</p>
-						<p class="tag mt-2 mb-2">Tag</p>
-						<p class="category">Category</p>
-					</div>
-				</div>
-
-				<div class="item border-b hover:bg-white cursor-pointer flex flex-wrap pb-2 pt-2" onclick="voiceDetail()">
-					<div class="item-left sm:w-1/2">
-						<h3 class="Title text-2xl">Voice Title 6</h3>
-						<p class="user text-gray-600 text-xs mt-2 mb-2">Username</p>
-						<p class="time text-gray-700 text-sm">02:03</p>
-					</div>
-					<div class="item-right ">
-						<p class="date">2019/07/10 09:00</p>
-						<p class="tag mt-2 mb-2">Tag</p>
-						<p class="category">Category</p>
+					<div class="sp-item bg-white hover:bg-gray-100 hidden p-2 mb-3">
+						<div class="sm-top border-b pb-2">
+							<h3 class="Title text-2xl">Voice Title 1
+								<span class="text-orange-400 hover:text-orange-500 is-bookmark"><i class="fas fa-bookmark fa-fw mr-3"></i></span>
+							</h3>
+							<p class="time text-gray-700 text-sm">02:03</p>
+							<p class="tag mt-2 mb-2">Tag</p>
+							<p class="category">Category</p>
+						</div>
+						<div class="sm-bottom flex flex-wrap">
+							<div class="float-left w-1/2">
+								<p class="user text-gray-700 text-xl mb-1">Username</p>
+								<p class="date text-gray-600 text-sm">2019/07/10 09:00</p>
+							</div>
+							<div class="float-right w-1/2 text-right">
+							</div>
+						</div>
 					</div>
 				</div>
-
-				<div class="item border-b hover:bg-white cursor-pointer flex flex-wrap pb-2 pt-2" onclick="voiceDetail()">
-					<div class="item-left sm:w-1/2">
-						<h3 class="Title text-2xl">Voice Title 9</h3>
-						<p class="user text-gray-600 text-xs mt-2 mb-2">Username</p>
-						<p class="time text-gray-700 text-sm">02:03</p>
+				<div class="item cursor-pointer" onclick="voiceDetail()">
+					<div class="pc-item border-b flex flex-wrap hover:bg-white pb-2 pt-2">
+						<div class="item-left sm:w-1/2">
+							<h3 class="Title text-2xl">Voice Title 2
+								<span class="text-orange-400 hover:text-orange-500 text-sm is-bookmark"><i class="fas fa-bookmark fa-fw mr-3"></i></span>
+							</h3>
+							<p class="user text-gray-600 text-xs mt-2 mb-2">Username</p>
+							<p class="time text-gray-700 text-sm">02:03</p>
+						</div>
+						<div class="item-right sm:w-1/2">
+							<p class="date">2019/07/10 09:00</p>
+							<p class="tag mt-2 mb-2">Tag</p>
+							<p class="category">Category</p>
+						</div>
 					</div>
-					<div class="item-right ">
-						<p class="date">2019/07/10 09:00</p>
-						<p class="tag mt-2 mb-2">Tag</p>
-						<p class="category">Category</p>
+					<div class="sp-item bg-white hover:bg-gray-100 hidden p-2 mb-3">
+						<div class="sm-top border-b pb-2">
+							<h3 class="Title text-2xl">Voice Title 2
+								<span class="text-orange-400 hover:text-orange-500 is-bookmark"><i class="fas fa-bookmark fa-fw mr-3"></i></span>
+							</h3>
+							<p class="time text-gray-700 text-sm">02:03</p>
+							<p class="tag mt-2 mb-2">Tag</p>
+							<p class="category">Category</p>
+						</div>
+						<div class="sm-bottom flex flex-wrap">
+							<div class="float-left w-1/2">
+								<p class="user text-gray-700 text-xl mb-1">Username</p>
+								<p class="date text-gray-600 text-sm">2019/07/10 09:00</p>
+							</div>
+							<div class="float-right w-1/2 text-right">
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="item cursor-pointer" onclick="voiceDetail()">
+					<div class="pc-item border-b flex flex-wrap hover:bg-white pb-2 pt-2">
+						<div class="item-left sm:w-1/2">
+							<h3 class="Title text-2xl">Voice Title 3
+								<span class="text-orange-400 hover:text-orange-500 text-sm is-bookmark"><i class="fas fa-bookmark fa-fw mr-3"></i></span>
+							</h3>
+							<p class="user text-gray-600 text-xs mt-2 mb-2">Username</p>
+							<p class="time text-gray-700 text-sm">02:03</p>
+						</div>
+						<div class="item-right sm:w-1/2">
+							<p class="date">2019/07/10 09:00</p>
+							<p class="tag mt-2 mb-2">Tag</p>
+							<p class="category">Category</p>
+						</div>
+					</div>
+					<div class="sp-item bg-white hover:bg-gray-100 hidden p-2 mb-3">
+						<div class="sm-top border-b pb-2">
+							<h3 class="Title text-2xl">Voice Title 3
+								<span class="text-orange-400 hover:text-orange-500 is-bookmark"><i class="fas fa-bookmark fa-fw mr-3"></i></span>
+							</h3>
+							<p class="time text-gray-700 text-sm">02:03</p>
+							<p class="tag mt-2 mb-2">Tag</p>
+							<p class="category">Category</p>
+						</div>
+						<div class="sm-bottom flex flex-wrap">
+							<div class="float-left w-1/2">
+								<p class="user text-gray-700 text-xl mb-1">Username</p>
+								<p class="date text-gray-600 text-sm">2019/07/10 09:00</p>
+							</div>
+							<div class="float-right w-1/2 text-right">
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="item cursor-pointer" onclick="voiceDetail()">
+					<div class="pc-item border-b flex flex-wrap hover:bg-white pb-2 pt-2">
+						<div class="item-left sm:w-1/2">
+							<h3 class="Title text-2xl">Voice Title 1
+								<span class="text-orange-400 hover:text-orange-500 text-sm is-bookmark"><i class="fas fa-bookmark fa-fw mr-3"></i></span>
+							</h3>
+							<p class="user text-gray-600 text-xs mt-2 mb-2">Username</p>
+							<p class="time text-gray-700 text-sm">02:03</p>
+						</div>
+						<div class="item-right sm:w-1/2">
+							<p class="date">2019/07/10 09:00</p>
+							<p class="tag mt-2 mb-2">Tag</p>
+							<p class="category">Category</p>
+						</div>
+					</div>
+					<div class="sp-item bg-white hover:bg-gray-100 hidden p-2 mb-3">
+						<div class="sm-top border-b pb-2">
+							<h3 class="Title text-2xl">Voice Title 1
+								<span class="text-orange-400 hover:text-orange-500 is-bookmark"><i class="fas fa-bookmark fa-fw mr-3"></i></span>
+							</h3>
+							<p class="time text-gray-700 text-sm">02:03</p>
+							<p class="tag mt-2 mb-2">Tag</p>
+							<p class="category">Category</p>
+						</div>
+						<div class="sm-bottom flex flex-wrap">
+							<div class="float-left w-1/2">
+								<p class="user text-gray-700 text-xl mb-1">Username</p>
+								<p class="date text-gray-600 text-sm">2019/07/10 09:00</p>
+							</div>
+							<div class="float-right w-1/2 text-right">
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="item cursor-pointer" onclick="voiceDetail()">
+					<div class="pc-item border-b flex flex-wrap hover:bg-white pb-2 pt-2">
+						<div class="item-left sm:w-1/2">
+							<h3 class="Title text-2xl">Voice Title 1
+								<span class="text-orange-400 hover:text-orange-500 text-sm is-bookmark"><i class="fas fa-bookmark fa-fw mr-3"></i></span>
+							</h3>
+							<p class="user text-gray-600 text-xs mt-2 mb-2">Username</p>
+							<p class="time text-gray-700 text-sm">02:03</p>
+						</div>
+						<div class="item-right sm:w-1/2">
+							<p class="date">2019/07/10 09:00</p>
+							<p class="tag mt-2 mb-2">Tag</p>
+							<p class="category">Category</p>
+						</div>
+					</div>
+					<div class="sp-item bg-white hover:bg-gray-100 hidden p-2 mb-3">
+						<div class="sm-top border-b pb-2">
+							<h3 class="Title text-2xl">Voice Title 1
+								<span class="text-orange-400 hover:text-orange-500 is-bookmark"><i class="fas fa-bookmark fa-fw mr-3"></i></span>
+							</h3>
+							<p class="time text-gray-700 text-sm">02:03</p>
+							<p class="tag mt-2 mb-2">Tag</p>
+							<p class="category">Category</p>
+						</div>
+						<div class="sm-bottom flex flex-wrap">
+							<div class="float-left w-1/2">
+								<p class="user text-gray-700 text-xl mb-1">Username</p>
+								<p class="date text-gray-600 text-sm">2019/07/10 09:00</p>
+							</div>
+							<div class="float-right w-1/2 text-right">
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="item cursor-pointer" onclick="voiceDetail()">
+					<div class="pc-item border-b flex flex-wrap hover:bg-white pb-2 pt-2">
+						<div class="item-left sm:w-1/2">
+							<h3 class="Title text-2xl">Voice Title 1
+								<span class="text-orange-400 hover:text-orange-500 text-sm is-bookmark"><i class="fas fa-bookmark fa-fw mr-3"></i></span>
+							</h3>
+							<p class="user text-gray-600 text-xs mt-2 mb-2">Username</p>
+							<p class="time text-gray-700 text-sm">02:03</p>
+						</div>
+						<div class="item-right sm:w-1/2">
+							<p class="date">2019/07/10 09:00</p>
+							<p class="tag mt-2 mb-2">Tag</p>
+							<p class="category">Category</p>
+						</div>
+					</div>
+					<div class="sp-item bg-white hover:bg-gray-100 hidden p-2 mb-3">
+						<div class="sm-top border-b pb-2">
+							<h3 class="Title text-2xl">Voice Title 1
+								<span class="text-orange-400 hover:text-orange-500 is-bookmark"><i class="fas fa-bookmark fa-fw mr-3"></i></span>
+							</h3>
+							<p class="time text-gray-700 text-sm">02:03</p>
+							<p class="tag mt-2 mb-2">Tag</p>
+							<p class="category">Category</p>
+						</div>
+						<div class="sm-bottom flex flex-wrap">
+							<div class="float-left w-1/2">
+								<p class="user text-gray-700 text-xl mb-1">Username</p>
+								<p class="date text-gray-600 text-sm">2019/07/10 09:00</p>
+							</div>
+							<div class="float-right w-1/2 text-right">
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="item cursor-pointer" onclick="voiceDetail()">
+					<div class="pc-item border-b flex flex-wrap hover:bg-white pb-2 pt-2">
+						<div class="item-left sm:w-1/2">
+							<h3 class="Title text-2xl">Voice Title 1
+								<span class="text-orange-400 hover:text-orange-500 text-sm is-bookmark"><i class="fas fa-bookmark fa-fw mr-3"></i></span>
+							</h3>
+							<p class="user text-gray-600 text-xs mt-2 mb-2">Username</p>
+							<p class="time text-gray-700 text-sm">02:03</p>
+						</div>
+						<div class="item-right sm:w-1/2">
+							<p class="date">2019/07/10 09:00</p>
+							<p class="tag mt-2 mb-2">Tag</p>
+							<p class="category">Category</p>
+						</div>
+					</div>
+					<div class="sp-item bg-white hover:bg-gray-100 hidden p-2 mb-3">
+						<div class="sm-top border-b pb-2">
+							<h3 class="Title text-2xl">Voice Title 1
+								<span class="text-orange-400 hover:text-orange-500 is-bookmark"><i class="fas fa-bookmark fa-fw mr-3"></i></span>
+							</h3>
+							<p class="time text-gray-700 text-sm">02:03</p>
+							<p class="tag mt-2 mb-2">Tag</p>
+							<p class="category">Category</p>
+						</div>
+						<div class="sm-bottom flex flex-wrap">
+							<div class="float-left w-1/2">
+								<p class="user text-gray-700 text-xl mb-1">Username</p>
+								<p class="date text-gray-600 text-sm">2019/07/10 09:00</p>
+							</div>
+							<div class="float-right w-1/2 text-right">
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="item cursor-pointer" onclick="voiceDetail()">
+					<div class="pc-item border-b flex flex-wrap hover:bg-white pb-2 pt-2">
+						<div class="item-left sm:w-1/2">
+							<h3 class="Title text-2xl">Voice Title 1
+								<span class="text-orange-400 hover:text-orange-500 text-sm is-bookmark"><i class="fas fa-bookmark fa-fw mr-3"></i></span>
+							</h3>
+							<p class="user text-gray-600 text-xs mt-2 mb-2">Username</p>
+							<p class="time text-gray-700 text-sm">02:03</p>
+						</div>
+						<div class="item-right sm:w-1/2">
+							<p class="date">2019/07/10 09:00</p>
+							<p class="tag mt-2 mb-2">Tag</p>
+							<p class="category">Category</p>
+						</div>
+					</div>
+					<div class="sp-item bg-white hover:bg-gray-100 hidden p-2 mb-3">
+						<div class="sm-top border-b pb-2">
+							<h3 class="Title text-2xl">Voice Title 1
+								<span class="text-orange-400 hover:text-orange-500 is-bookmark"><i class="fas fa-bookmark fa-fw mr-3"></i></span>
+							</h3>
+							<p class="time text-gray-700 text-sm">02:03</p>
+							<p class="tag mt-2 mb-2">Tag</p>
+							<p class="category">Category</p>
+						</div>
+						<div class="sm-bottom flex flex-wrap">
+							<div class="float-left w-1/2">
+								<p class="user text-gray-700 text-xl mb-1">Username</p>
+								<p class="date text-gray-600 text-sm">2019/07/10 09:00</p>
+							</div>
+							<div class="float-right w-1/2 text-right">
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="item cursor-pointer" onclick="voiceDetail()">
+					<div class="pc-item border-b flex flex-wrap hover:bg-white pb-2 pt-2">
+						<div class="item-left sm:w-1/2">
+							<h3 class="Title text-2xl">Voice Title 1
+								<span class="text-orange-400 hover:text-orange-500 text-sm is-bookmark"><i class="fas fa-bookmark fa-fw mr-3"></i></span>
+							</h3>
+							<p class="user text-gray-600 text-xs mt-2 mb-2">Username</p>
+							<p class="time text-gray-700 text-sm">02:03</p>
+						</div>
+						<div class="item-right sm:w-1/2">
+							<p class="date">2019/07/10 09:00</p>
+							<p class="tag mt-2 mb-2">Tag</p>
+							<p class="category">Category</p>
+						</div>
+					</div>
+					<div class="sp-item bg-white hover:bg-gray-100 hidden p-2 mb-3">
+						<div class="sm-top border-b pb-2">
+							<h3 class="Title text-2xl">Voice Title 1
+								<span class="text-orange-400 hover:text-orange-500 is-bookmark"><i class="fas fa-bookmark fa-fw mr-3"></i></span>
+							</h3>
+							<p class="time text-gray-700 text-sm">02:03</p>
+							<p class="tag mt-2 mb-2">Tag</p>
+							<p class="category">Category</p>
+						</div>
+						<div class="sm-bottom flex flex-wrap">
+							<div class="float-left w-1/2">
+								<p class="user text-gray-700 text-xl mb-1">Username</p>
+								<p class="date text-gray-600 text-sm">2019/07/10 09:00</p>
+							</div>
+							<div class="float-right w-1/2 text-right">
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="item cursor-pointer" onclick="voiceDetail()">
+					<div class="pc-item border-b flex flex-wrap hover:bg-white pb-2 pt-2">
+						<div class="item-left sm:w-1/2">
+							<h3 class="Title text-2xl">Voice Title 1
+								<span class="text-orange-400 hover:text-orange-500 text-sm is-bookmark"><i class="fas fa-bookmark fa-fw mr-3"></i></span>
+							</h3>
+							<p class="user text-gray-600 text-xs mt-2 mb-2">Username</p>
+							<p class="time text-gray-700 text-sm">02:03</p>
+						</div>
+						<div class="item-right sm:w-1/2">
+							<p class="date">2019/07/10 09:00</p>
+							<p class="tag mt-2 mb-2">Tag</p>
+							<p class="category">Category</p>
+						</div>
+					</div>
+					<div class="sp-item bg-white hover:bg-gray-100 hidden p-2 mb-3">
+						<div class="sm-top border-b pb-2">
+							<h3 class="Title text-2xl">Voice Title 1
+								<span class="text-orange-400 hover:text-orange-500 is-bookmark"><i class="fas fa-bookmark fa-fw mr-3"></i></span>
+							</h3>
+							<p class="time text-gray-700 text-sm">02:03</p>
+							<p class="tag mt-2 mb-2">Tag</p>
+							<p class="category">Category</p>
+						</div>
+						<div class="sm-bottom flex flex-wrap">
+							<div class="float-left w-1/2">
+								<p class="user text-gray-700 text-xl mb-1">Username</p>
+								<p class="date text-gray-600 text-sm">2019/07/10 09:00</p>
+							</div>
+							<div class="float-right w-1/2 text-right">
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>

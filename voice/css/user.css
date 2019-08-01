@@ -14,7 +14,7 @@
 #main {
     margin-top: 150px;
 }
-#voice-list .item .is-bookmark {
+#voice-list .item .pc-item .is-bookmark {
     position: absolute;
 }
 .voice-detail .voice-content{
@@ -36,10 +36,16 @@
     #nav-menu ul li a {
         min-width: 70px;
     }
+    #voice-list .pc-item  {
+        display: none;
+    }
+    #voice-list .sp-item  {
+        display: block;
+    }
 }
-@media(max-width: 500px) {
+@media(max-width: 400px) {
     .login-form {
-        min-width: 350px;
+        min-width: 340px;
         font-size: 12px;
     }
     #voice-list .item-left,
@@ -48,11 +54,5 @@
     }
     #voice-list .item-right {
         margin-top: 15px;
-    }
-}
-
-@media(max-width: 360px) {
-    .login-form {
-        min-width: 340px;
     }
 }
