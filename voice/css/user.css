@@ -13,6 +13,7 @@
 }
 #main {
     margin-top: 150px;
+    margin-bottom: 50px;
 }
 #voice-list .item .pc-item .is-bookmark {
     position: absolute;
