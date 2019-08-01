@@ -14,8 +14,8 @@
 #main {
     margin-top: 150px;
 }
-#voice-list .item .list {
-    font-size: 14px;
+#voice-list .item .is-bookmark {
+    position: absolute;
 }
 .voice-detail .voice-content{
     text-align: center;
@@ -28,6 +28,9 @@
 }
 .btn-bookmark button{
     padding: 5px 15px;
+}
+#userMenu {
+    width: 150px;
 }
 @media(max-width: 668px) {
     #nav-menu ul li a {
